@@ -53,7 +53,7 @@ export default function Header() {
         {authUser && (
           <>
             <Button className="hover:scale-105 transition-all">
-              <Link href={'/Register'}>Cadastrar Funcinário</Link>
+              <Link href={'/Register'}>Cadastrar Funcinários</Link>
             </Button>
             <Button className="hover:scale-105 transition-all">
               <Link href={'/list'}>Listar Funcinário</Link>
